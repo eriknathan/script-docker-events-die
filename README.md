@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/erik-nathan/script-docker-events-die?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/erik-nathan/script-docker-events-die?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="img/img-discord.png" alt="Imagem do Discord com aleta do events">
 
 > Este é um script feito em python utilizando a API do Docker. Consiste em sempre que um container for derrubado o script manda um aletar em algum canal de texto do Discord com algumas informações do container como: ID, Nome, Data e Hora.
 
