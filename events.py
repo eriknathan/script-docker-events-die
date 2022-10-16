@@ -4,7 +4,7 @@ import requests
 import os
 
 client = docker.DockerClient(base_url='unix://var/run/docker.sock')
-webhook_url = "#"
+webhook_url = "#aqui vai o link do seu webhook do canal do discord"
 
 for event in client.events(decode=True, filters={"event": "die"}):
     container_id = event["id"]
