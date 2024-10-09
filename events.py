@@ -12,7 +12,7 @@ for event in client.events(decode=True, filters={"event": "die"}):
     epoch_date = event["time"] 
     date_time = datetime.datetime.fromtimestamp(epoch_date)  
 
-    response = {"content": f'O CONTAINER FOI DERRUBADO!!! {os.linesep}- ID do Container: {container_id} {os.linesep}- Nome do Container: {container_name} {os.linesep}- Data e Hora: {date_time}'}
+    response = {"content": f'O CONTAINER TÁ OFF!!! {os.linesep}- ID do Container: {container_id} {os.linesep}- Nome do Container: {container_name} {os.linesep}- Data e Hora: {date_time}'}
 
     print(response)
     requests.post(webhook_url, data=response)
